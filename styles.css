@@ -1,0 +1,17 @@
+html {
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(skyblue,blue,black);
+    color:orange;
+    font-size: 20px;
+  }
+  h1 {
+   color:orange;
+    font-size: 50px;
+    text-align: center;
+  }
+  igm{
+    margin: auto;
+    display: block;
+  }
+  
