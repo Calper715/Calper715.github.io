@@ -1,17 +1,62 @@
-html {
-    height: 100%;
-    width: 100%;
-    background: radial-gradient(skyblue,blue,black);
-    color:orange;
-    font-size: 20px;
-  }
-  h1 {
-   color:orange;
-    font-size: 50px;
-    text-align: center;
-  }
-  igm{
-    margin: auto;
-    display: block;
-  }
-  
+  /* styles.css */
+
+body {
+  font-family: 'Roboto', sans-serif; /* Custom font */
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #e0f7fa; /* Lighter blue for header */
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #00796b; /* Teal color for links */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2em;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #e0f7fa;
+  padding: 1em;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label, form input, form textarea {
+  margin-bottom: 1em;
+}
+
+form input, form textarea {
+  padding: 0.5em;
+}
