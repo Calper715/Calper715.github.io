@@ -1,4 +1,4 @@
-  /* styles.css */
+/* styles.css */
 
 body {
   font-family: 'Roboto', sans-serif; /* Custom font */
@@ -38,8 +38,10 @@ section {
 }
 
 .project img {
-  max-width: 100%;
-  height: auto;
+  max-width: 100%; /* Ensure images scale with their container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra space below image */
+  margin: 0 auto; /* Center align the image */
 }
 
 footer {
