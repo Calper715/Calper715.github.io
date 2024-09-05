@@ -1,64 +1,12 @@
-/* styles.css */
-
-body {
-  font-family: 'Roboto', sans-serif; /* Custom font */
-  background-color: linear-gradient(#c5e4ff, #77bfff); /* Light blue background */
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #e0f7fa; /* Lighter blue for header */
-  padding: 1em;
-  text-align: center;
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 1em;
-}
-
-a {
-  text-decoration: none;
-  color: #00796b; /* Teal color for links */
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-section {
-  padding: 2em;
-}
-
-.project img {
+.example img {
   max-width: 100%; /* Ensure images scale with their container */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Remove extra space below image */
   margin: 0 auto; /* Center align the image */
 }
 
-footer {
-  background-color: #e0f7fa;
-  padding: 1em;
-  text-align: center;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-form label, form input, form textarea {
-  margin-bottom: 1em;
-}
-
-form input, form textarea {
-  padding: 0.5em;
+video {
+  max-width: 100%; /* Ensure video scales with its container */
+  display: block; /* Center align the video */
+  margin: 0 auto;
 }
