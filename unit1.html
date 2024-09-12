@@ -3,54 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unit1 - Carson's Portfolio</title>
+    <title>Carson's Portfolio - Unit1</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Inline CSS for demonstration purposes */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            color: #333;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 10px 0;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-        }
-        nav ul li {
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
-        main {
-            padding: 20px;
-            text-align: center;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -63,11 +17,53 @@
         </nav>
     </header>
     <main>
-        <h1>Unit1</h1>
-        <p>This is the content for the Unit1 page. Make sure there is no duplicate content here.</p>
+        <h1>Unit1 Page</h1>
+        <p>Welcome to the Unit1 page. Here you can showcase the work related to Unit1.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Carson. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carson's Portfolio - Unit1</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="unit1.html">Unit1</a></li>
+                <!-- Add more menu items here -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Unit1 Page</h1>
+        <p>Welcome to the Unit1 page. Here you can showcase the work related to Unit1.</p>
         
-        <!-- Add more content relevant to Unit1 here -->
-
+        <!-- New section for pictures -->
+        <section>
+            <h2>Pictures</h2>
+            <div class="gallery">
+                <img src="Unit1/picture1.png" alt="Picture 1" style="width: 50%; height: auto;">
+                <img src="Unit1/picture2.png" alt="Picture 2" style="width: 50%; height: auto;">
+            </div>
+        </section>
+        
+        <!-- New section for video -->
+        <section>
+            <h2>Video</h2>
+            <video controls>
+                <source src="Unit1/video.mov" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
     </main>
     <footer>
         <p>&copy; 2024 Carson. All rights reserved.</p>
